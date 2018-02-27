@@ -11,7 +11,7 @@ dalvik.vm.isa.arm.variant=cortex-a15
 dalvik.vm.isa.arm.features=default
 
 # DPI
-ro.sf.lcd_density=480
+ro.sf.lcd_density=320
 
 # Hwui
 ro.hwui.texture_cache_size=50
