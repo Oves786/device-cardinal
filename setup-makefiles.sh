@@ -21,7 +21,7 @@ set -e
 DEVICE=j7xelte
 VENDOR=samsung
 
-INITIAL_COPYRIGHT_YEAR=2018
+INITIAL_COPYRIGHT_YEAR=2017
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
