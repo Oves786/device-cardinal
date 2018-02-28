@@ -67,12 +67,12 @@ app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 app/mcRegistry/ffffffffd00000000000000000000004.tlbin
 app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin
-vendor/lib/libMcClient.so:lib/libMcClient.so|6e20b880efa7e430beacaacd9b2721ed22398478
-vendor/lib/libMcRegistry.so:lib/libMcRegistry.so
+vendor/lib/libMcClient.so
+vendor/lib/libMcRegistry.so
 
 # Radio
-lib/libsec-ril.so|09f007ba0fd0a66b98ccd4c4b8275c703a6a6804
-lib/libsec-ril-dsds.so|baf6ac2e770b0456ad1ad3906c92a4deebd11040
+lib/libsec-ril.so
+lib/libsec-ril-dsds.so
 lib/libsecril-client.so
 lib/libaudio-ril.so
 lib/librilutils.so
@@ -84,8 +84,8 @@ lib/libsensorservice.so
 lib/libsensorlistener.so
 
 # Shim Libs
-lib/libprotobuf-cpp-N.so|f8b1e1d088cd4707393a1fad233f8b06116bc666
-lib/libprotobuf-cpp-fooo.so|5890f0daae5933210aa6b114bafc52ee7e809864
+lib/libprotobuf-cpp-N.so
+lib/libprotobuf-cpp-fooo.so
 
 # Surface Composer
 lib/hw/gralloc.exynos5.so
