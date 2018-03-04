@@ -15,7 +15,7 @@
 #
 
 # Device uses high-density artwork where available
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
