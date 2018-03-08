@@ -25,7 +25,7 @@ LOCAL_PATH := device/samsung/j7xelte
 -include $(LOCAL_PATH)/board/*.mk
 
 # Hidl
-DEVICE_MANIFEST_FILE := device/samsung/a3y17lte/manifest.xml
+DEVICE_MANIFEST_FILE := device/samsung/j7xelte/manifest.xml
 
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
