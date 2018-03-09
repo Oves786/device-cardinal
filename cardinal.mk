@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017 The LineageOS Project
+#                    Cardinal-AOSP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,11 +21,11 @@ $(call inherit-product, device/samsung/j7xelte/device.mk)
 # Inherit from those products. Most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Cardinal stuff.
+$(call inherit-product, vendor/cardinal/common.mk)
 
 # Device identifier
-PRODUCT_NAME := aosp_j7xelte
+PRODUCT_NAME := cardinal_j7xelte
 PRODUCT_DEVICE := j7xelte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-J710F
